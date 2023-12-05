@@ -1,3 +1,7 @@
+const port = 8080;
+const localIpAddress = "192.168.1.10"
+
+
 const express = require('express');
 const notifier = require('node-notifier');
 const ncp = require("copy-paste");
@@ -13,9 +17,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-const port = process.env.PORT || 8080;
-app.listen(port, '192.168.1.10', () => {
+app.listen(port, localIpAddress, () => {
     /* eslint-disable no-console */
-    console.log(`Listening: http://localhost:${port}`);
+    console.log(`Listening: http://${localIpAddress}:${port}`);
     /* eslint-enable no-console */
 });
