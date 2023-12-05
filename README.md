@@ -23,10 +23,15 @@ A simple express server used with Apple shortcut to send text over localhost to 
 ![Final Result](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/final_result.jpg)
 
 ### Steps
-1. Create a share entry : ![Share function](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/share_entry.jpg)
-2. Set share options to URL: ![Share entries options](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/select_share_origins.jpg)
-3. Set share access from share sheet : ![Access from share sheet](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/select_from_where_to_share.jpg)
-4. Store the url in a variable : ![Variable](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/add_a%20variable.jpg)
-5. Create a GET URL request : [GET page content function](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/get_url_content.jpg)
-6. For the url, type : `http://{your_computer_local_address}:8080/?text={the_variable_containing_the url_in_the_step_4}`
-7. Save and open Safari, click the share button and your shortcut should appear in the list at end. Update actions > Add the shortcut to your favs and it should be on top ! Use it !
+1. Create a share entry : \
+   ![Share function](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/share_entry.jpg)
+3. Set share options to URL: \
+   ![Share entries options](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/select_share_origins.jpg)
+5. Set share access from share sheet : \
+   ![Access from share sheet](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/select_from_where_to_share.jpg)
+7. Store the url in a variable : \
+   ![Variable](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/add_a%20variable.jpg)
+9. Create a GET URL request : \
+    ![GET page content function](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/get_url_content.jpg)
+11. For the url, type : `http://{your_computer_local_address}:8080/?text={the_variable_containing_the url_in_the_step_4}`
+12. Save and open Safari, click the share button and your shortcut should appear in the list at end. Update actions > Add the shortcut to your favs and it should be on top ! Use it !
