@@ -15,7 +15,6 @@ A simple express server used with Apple shortcut to send text over localhost to 
 - `git clone https://github.com/Medaillek/iphone-send-link-to-windows.git`
 - `cd iphone-send-link-to-windows.git`
 - `npm install`
-- Edit the localIpAddress
 - `node index.js`
 - And voilà, server will be running on port 8080, you can change it to match the port you need
 
