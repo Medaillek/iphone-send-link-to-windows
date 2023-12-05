@@ -1,5 +1,5 @@
 const port = 8080;
-const localIpAddress = "192.168.1.10"
+const localIpAddress = "0.0.0.0"
 
 
 const express = require('express');
