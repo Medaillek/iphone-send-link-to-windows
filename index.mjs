@@ -25,6 +25,6 @@ app.get('/', (req, res) => {
 
 app.listen(port, localIpAddress, () => {
     /* eslint-disable no-console */
-    console.log(`Listening: http://${localIpAddress}:${port}`);
-    /* eslint-enable no-console */
+    /*     console.log(`Listening: http://${localIpAddress}:${port}`);
+     */    /* eslint-enable no-console */
 });
