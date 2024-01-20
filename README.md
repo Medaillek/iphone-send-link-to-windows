@@ -17,6 +17,7 @@ A simple express server used with Apple shortcut to send text over localhost to 
 - `npm install`
 - `node index.mjs`
 - And voilà, server will be running on port 6666, you can change it to match the port you need
+- NEW => Links now opens directly in your prefered browser using the library "open"
 
 ## Shortcut creation
 ![Final Result](https://github.com/Medaillek/iphone-send-link-to-windows/blob/main/doc/final_result.jpg)
