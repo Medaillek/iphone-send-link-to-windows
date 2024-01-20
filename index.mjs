@@ -1,15 +1,21 @@
-const port = 8080;
+const port = 6666;
 const localIpAddress = "0.0.0.0"
 
 
-const express = require('express');
-const notifier = require('node-notifier');
-const ncp = require("copy-paste");
+import express from 'express';
+import notifier from 'node-notifier';
+import ncp from 'copy-paste';
+import open from 'open';
 
 const app = express();
 
 app.get('/', (req, res) => {
     const toCopy = req.query.text
+    if (!toCopy) return res.send('Nothing to copy');
+    if (toCopy.startsWith('http')) {
+        open(toCopy);
+        return res.send('Hello World!');
+    }
     ncp.copy(toCopy, () => {
         console.log('Copied to clipboard!')
     })
